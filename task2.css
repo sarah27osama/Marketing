@@ -1,0 +1,285 @@
+html, body {
+  margin: 0;
+  padding-top : 25px ;
+  padding-bottom: 25px;
+  overflow-x: hidden;
+  background-color:#FFFFFF;
+  font-family: sans-serif;
+}
+
+.container{
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+* {
+    margin: 0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 90px;
+}
+.links{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+.navs a{
+  color: rgb(83, 83, 83);
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Arial;
+}
+.btnnav{
+  color: rgb(83, 83, 83);
+  background-color: white;
+  border-radius: 15px;
+  font-size: 18px;
+  font-family: Georgia, serif;
+  width: 210px;
+  height: 70px;
+}
+
+
+header {
+  display: flex;
+  justify-content:space-between ;
+  padding-bottom: 40px;
+}
+
+.intro{
+   display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 400px;
+}
+
+.paragraph {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width: 448px;
+  padding-bottom: 20px;
+}
+.book{
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+  font-size: 18px;
+  font-family: Arial;
+  border: none;
+  width: 250px;
+  height: 70px;
+}
+.img{
+  position: relative;
+  width: 600px;
+}
+.brands{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F3F3F3;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100px;
+  margin-bottom: 80px;
+}
+.brands img{
+  width: 150px;
+}
+
+.services{
+  padding-bottom: 20px;
+}
+
+.services-studies{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 80px;
+}
+ h2 {
+  font-size: 40px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 5px 5px;
+  background-color:#B9FF66;
+  border-radius: 10px;
+}
+.para {
+  font-size: 20px;
+  width: 600px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.boxes{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.box1 , .box2 , .box3{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 50px;
+  gap: 50px;
+}
+
+.boxes button {
+  width: 700px;
+  height: 300px;
+  border-radius: 50px;
+}
+.white , .black , .green {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  gap: 60px;
+}
+.boxes img{
+  width: 250px;
+}
+.white{
+  background-color:#F3F3F3;
+}
+.green{
+  background-color: #B9FF66;
+}
+.black{
+  background-color: #191A23;
+}
+.boxes h4{
+  font-size: 30px;
+}
+.discription{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap: 100px;
+}
+.boxes a{
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+.black a {
+  color: white;
+}
+.white h4{
+  background-color: #B9FF66;
+}
+.green h4 , .black h4{
+  background-color: #FFFFFF;
+}
+.space{
+  color: #B9FF66;
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding-bottom: 50px;
+}
+
+
+
+.makethings{
+  position: relative;
+  display: flex;
+  border-radius: 25px;
+  padding: 50px 50px 80px 50px;
+  align-items: center;
+  background-color: #F3F3F3;
+}
+.make2{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  /* padding-left: 20px; */
+}
+h3{
+  font-size: 30px ;
+  width: 600px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.para2{
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 500px;
+  padding-bottom: 10px;
+}
+.makethings-butn{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  width: 280px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+}
+
+.star-img{
+  width: 500px;
+  position:absolute;
+  right: -80px;
+  top: -30px;
+}
+
+
+.studies{
+  padding-top: 40px;
+}
+.services-studies p {
+  width: 450px;
+}
+.foot {
+  display: flex;
+  border-radius: 25px;
+  padding: 50px;
+  align-items: center;
+  padding-bottom: 80px;
+  background-color:#191A23;
+  height: 140px;
+  justify-content: space-between;
+}
+.foot p {
+  padding-bottom: 20px;
+  font-size: 20px;
+  width: 300px;
+  color: white;
+  padding-top: 20px;
+}
+.second , .third{
+  border-left: 1px solid #fff;
+  padding-left: 20px;
+}
+.foot a {
+  color:  #B9FF66;
+  text-decoration: none;
+}
+.arrow-2{
+  padding-left: 10px;
+}
